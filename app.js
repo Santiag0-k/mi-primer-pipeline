@@ -6,7 +6,7 @@ function sumar(a, b) {
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hola Mundo! 2 + 3 = ' + sumar(2, 3));
+  res.end('Hola Arquitectos! 2 + 3 = ' + sumar(2, 3));
 });
 
 const PORT = process.env.PORT || 3000;
