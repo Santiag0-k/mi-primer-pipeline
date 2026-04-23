@@ -1,7 +1,7 @@
 const http = require('http');
 
 function sumar(a, b) {
-  return a * b;
+  return a + b;
 }
 
 const server = http.createServer((req, res) => {
